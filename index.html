@@ -13,35 +13,37 @@
     <title>Unit - Converter</title>
   </head>
   <body>
-    <main>
+    <main class="wrapper">
       <div class="bg-purple">
-        <h1 class="heading">Metric/Imperial Unit Conversion</h1>
+        <h1 class="main-heading">Metric/Imperial Unit Conversion</h1>
         <div class="unit-input">
           <input id="user-input" class="user-input" type="text" />
-          <button id="convert-btn" class="convert-btn">convert</button>
+          <button id="convert-btn" class="convert-btn">Convert</button>
         </div>
       </div>
 
       <div class="bg-dark">
-        <div id="output-length" class="output output-length">
-          <p id="output-heading-length" class="output-heading">
-            Length (Meter/Feet)
-          </p>
-          <p id="output-result-length" class="output-result"></p>
-        </div>
+        <div class="output-content">
+          <div id="output-length" class="output output-length">
+            <p id="output-heading-length" class="output-heading">
+              Length (Meter/Feet)
+            </p>
+            <p id="output-result-length" class="output-result"></p>
+          </div>
 
-        <div id="output-volume" class="output output-volume">
-          <p id="output-heading-volume" class="output-heading">
-            Volume (Liters/Gallons)
-          </p>
-          <p id="output-result-volume" class="output-result"></p>
-        </div>
+          <div id="output-volume" class="output output-volume">
+            <p id="output-heading-volume" class="output-heading">
+              Volume (Liters/Gallons)
+            </p>
+            <p id="output-result-volume" class="output-result"></p>
+          </div>
 
-        <div id="output-mass" class="output output-mass">
-          <p id="output-heading-mass" class="output-heading">
-            Mass (Kilograms/Pounds)
-          </p>
-          <p id="output-result-mass" class="output-result"></p>
+          <div id="output-mass" class="output output-mass">
+            <p id="output-heading-mass" class="output-heading">
+              Mass (Kilograms/Pounds)
+            </p>
+            <p id="output-result-mass" class="output-result"></p>
+          </div>
         </div>
       </div>
     </main>
