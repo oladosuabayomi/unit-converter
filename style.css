@@ -89,3 +89,13 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+
+.output-heading {
+  color: #bcb9f0;
+  font-weight: 600;
+}
+
+.output-result {
+  font-size: 14px;
+  color: #a0afc5;
+}
